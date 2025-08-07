@@ -3,32 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <title>Bigya Construction – Connect With Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       margin: 0;
       padding: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #f0f4f8, #ffffff);
-      text-align: center;
+      background: linear-gradient(to right, #f9fbfd, #eef3f8);
       color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
     }
 
     .container {
+      width: 90%;
       max-width: 600px;
-      margin: 60px auto;
-      padding: 30px;
-      background: #ffffffdd;
+      padding: 40px 25px;
+      background: #ffffff;
       border-radius: 15px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+      text-align: center;
     }
 
     .logo {
-      max-width: 180px;
+      max-width: 160px;
       margin-bottom: 20px;
     }
 
     h2 {
-      font-size: 28px;
+      font-size: 26px;
       margin-bottom: 30px;
       color: #b30000;
     }
@@ -37,27 +42,28 @@
       display: block;
       margin: 15px auto;
       padding: 12px 20px;
-      width: 80%;
+      width: 100%;
+      max-width: 400px;
       border-radius: 8px;
-      font-size: 18px;
+      font-size: 17px;
       text-decoration: none;
-      background: #e6f0ff;
-      color: #0056b3;
+      background: #f0f8ff;
+      color: #004080;
       transition: all 0.3s ease;
     }
 
     a:hover {
-      background: #cce0ff;
-      transform: scale(1.03);
+      background: #d9ebff;
+      transform: scale(1.04);
     }
 
-    @media (max-width: 600px) {
-      .container {
-        margin: 30px 15px;
+    @media (max-width: 400px) {
+      h2 {
+        font-size: 22px;
       }
 
       a {
-        width: 90%;
+        font-size: 16px;
       }
     }
   </style>
